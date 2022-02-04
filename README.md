@@ -12,4 +12,6 @@
 
 1. [ACC-001](./sdlc/acceptance_tests/ACC-001.md)
 1. [ACC-002](./sdlc/acceptance_tests/ACC-002.md)
+1. [ACC-003](./sdlc/acceptance_tests/ACC-003.md)
+1. [ACC-004](./sdlc/acceptance_tests/ACC-004.md)
 
