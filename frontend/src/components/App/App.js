@@ -1,4 +1,5 @@
 import React from 'react'
+import Product from '../Product/Product';
 import './App.css';
 
 function App() {
@@ -23,6 +24,14 @@ function App() {
         which is useful when the state doesn't depend on the previous
         state, and how to set the current satte when it does.
       </p>
+      <p>
+        The state of a React class is a special
+        property that controls the rendering of a page. When you change the
+        state, React knows that the component is out-of-date and will
+        automatically re-render. You can add other properties to a React
+        class, but they won’t have the same ability to trigger re-rendering.
+      </p>
+      <Product />
     </div>
   )
 }
