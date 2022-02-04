@@ -7,13 +7,16 @@ The format is based on [Keep a
 Changelog](https://keepachangelog.com/en/1.0.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.2.0] - 2022-02-04 11:00 - 11:30 Step 2 Using State in a Component
+## [0.2.0] - 2022-02-04 11:00 - 11:45 Step 2 Using State in a Component
 
 1. Created Product component showing Shopping cart count of items and
    Total Cost.
 1. Created state class property of Product and used this to store the
    state of the shopping cart, basically the count of items and the
    total cost.
+1. Created add and remove methods to update the state of the shopping
+   card and attached each to the relevant onClick methods of the Add and
+   Remove Buttons.
 
 ## [0.1.0] - 2022-02-03 16:00 - 17:30 Step 1 Create an Empty Project
 

@@ -31,6 +31,9 @@ function App() {
         automatically re-render. You can add other properties to a React
         class, but they won’t have the same ability to trigger re-rendering.
       </p>
+      <p>
+        The setState method can take either an object or a function as the first argument. If you need to reference the current state, you use the latter to pass a function to avoid any references to out-of-date state
+      </p>
       <Product />
     </div>
   )
