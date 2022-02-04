@@ -4,7 +4,9 @@ import "./Product.css";
 
 export default class Product extends Component {
 
-    // Shouldn't this be define in the constructor?
+    // In ES6 class fields are introduced. React uses them routinely
+    // through Babel. So don't need to define this through the constructor
+    // and this also avoids this binding issues.
     state = {
         cart: [],
         total: 0
