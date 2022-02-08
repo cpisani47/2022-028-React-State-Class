@@ -7,11 +7,11 @@ The format is based on [Keep a
 Changelog](https://keepachangelog.com/en/1.0.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [0.4.1] - 2022-02-04 18:00 - 18:15 (170) Clean Release
+## [0.4.1] - 2022-02-04 Clean Release
 
 1. Release to Build Area and carry out regression tests.
 
-## [0.4.0] - 2022-02-04 14:30 - 17:15 (170) Step 4 
+## [0.4.0] - 2022-02-04 Step 4 
 
 1. Add a product array contain 3 elements with attributes for the name,
    emoji and price.
@@ -30,7 +30,7 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 1. Ensure that the remove function returns without changing state if
    someone tries to remove something from the cart if it wasn't added.
 
-## [0.3.0] - 2022-02-04 12:30 - 13:15 (45) Step 3 
+## [0.3.0] - 2022-02-04 Step 3 
 
 1. Define Product state with a cart array and a total.
 1. Create getTotal method which returns the total.
@@ -38,7 +38,7 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
    (no matter how many times you hit the button)
 1. Create remove method to set the state to zero.
 
-## [0.2.0] - 2022-02-04 11:00 - 11:45 (45) Step 2 Using State in a Component
+## [0.2.0] - 2022-02-04 Step 2 Using State in a Component
 
 1. Created Product component showing Shopping cart count of items and
    Total Cost.
@@ -49,7 +49,7 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
    card and attached each to the relevant onClick methods of the Add and
    Remove Buttons.
 
-## [0.1.0] - 2022-02-03 16:00 - 17:30 (90) Step 1 Create an Empty Project
+## [0.1.0] - 2022-02-03 Step 1 Create an Empty Project
 
 ### Added
 
@@ -71,5 +71,4 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 1. Complete acceptance testing as per [Acceptance
    Tests](./sdlc/acceptance_tests/ACC-001.md)
 1. Release signed off by carmelo@example.com.
-
 
